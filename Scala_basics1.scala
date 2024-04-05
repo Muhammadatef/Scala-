@@ -8,6 +8,7 @@ println(number2)
 // how to create a function in scala 
 
 def multiplyBy2(number:Int, number2:Int) = number * number2
+  
 println(multiplyBy2(number,number2))
 
 
