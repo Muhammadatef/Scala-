@@ -1,3 +1,4 @@
+// Using InteliJ
 //List("Hello", "World").mkString("", ", ", "!")
 
 val number:Int = 10 // immutable, can't be changed
@@ -9,7 +10,7 @@ println(number2)
 
 def multiplyBy2(number:Int, number2:Int) = number * number2
   
-  println(multiplyBy2(number,number2))
+println(multiplyBy2(number,number2))
 
 
 
