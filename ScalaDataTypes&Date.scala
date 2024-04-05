@@ -47,7 +47,7 @@ object DataTypesAndDateTime extends App {
 
 // In Scala, the s before a string literal indicates that the string is an interpolated string. This means you can embed variables directly within the string. The variables are enclosed in curly braces {} and are prefixed with a $ sign. If you're just referencing a variable and not performing any operations on it, you can omit the curly braces and use the $ sign followed by the variable name directly.
 
-For example, in the line:
+// For example, in the line:
 
 
 println(s"Double: $aDouble, Float: $aFloat")
