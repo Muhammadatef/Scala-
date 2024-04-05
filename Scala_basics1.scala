@@ -9,7 +9,7 @@ println(number2)
 
 def multiplyBy2(number:Int, number2:Int) = number * number2
   
-println(multiplyBy2(number,number2))
+  println(multiplyBy2(number,number2))
 
 
 
