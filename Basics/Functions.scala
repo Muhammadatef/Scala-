@@ -12,14 +12,15 @@ object Functions extends App {
   println(aParameterlessFunction())
   // println(aParameterlessFunction) // only works in Scala 2 - parameterless functions are invoked without parentheses
 
-  def aRepeatedFunction(aString: String, n: Int): String = {
-    if (n == 1) aString
+  def aRepeatedFunction(aString: String, n:Int): String = {
+    if(n==1) aString
     else aString + aRepeatedFunction(aString, n-1)
   }
-
-  println(aRepeatedFunction("hello",3))
-
+  println(aRepeatedFunction("MAF", 3))
   // WHEN YOU NEED LOOPS, USE RECURSION.
+  // In a normal function, you can remove the return type of the function(optional)
+  // BUT, IN  a recursion function, you have to specify the return type
+
 
   def aFunctionWithSideEffects(aString: String): Unit = println(aString)
 
