@@ -79,27 +79,50 @@
 
 - **Definition:** Objects created using `object` keyword, representing a single instance or holding utility methods.
 
+## Traits
+
+- **Definition:** Similar to interfaces, can contain concrete methods and fields, enabling multiple inheritance.
+
+## Mixins
+
+- **Definition:** Combine multiple traits into a class for behavior inheritance and code reuse.
+
 ## Type Inference
 
-- **Definition:** Deduces types of variables, expressions, and functions without explicit annotations.
+- **Definition:** Deduces types without explicit annotations, improving code readability and conciseness.
+
+## Higher-Order Functions
+
+- **Definition:** Functions that take other functions as parameters or return functions, enabling functional programming paradigms.
+
+## Pattern Matching
+
+- **Definition:** Match values against patterns for control flow and data extraction, a powerful feature in Scala.
+
+## Option and Some/None
+
+- **Definition:** Represent optional values, improving type safety and handling null or undefined values.
+
+## Construction and Initialization
+
+- **Definition:** Class constructors and initialization methods in Scala, including primary and auxiliary constructors.
 
 ## Tail Recursion
 
-- **Definition:** Technique where a function calls itself as its last action, optimized to prevent stack overflow.
+- **Definition:** Technique optimizing recursive functions, preventing stack overflow with @tailrec annotation.
 
 ## Implicits
 
-- **Features:** Implicit conversions, parameters, type class resolution.
+- **Definition:** Implicit conversions, parameters, and type class resolution for concise and flexible code.
 
 ## Future and Promises
 
-- **Definition:** Concurrency support through `Future` for asynchronous computations and `Promise` for manual completion.
+- **Definition:** Concurrency support with Future for asynchronous computations and Promise for manual completion.
 
 ## Akka Actors
 
-- **Definition:** Message-driven concurrency and distributed applications using Akka toolkit.
+- **Definition:** Toolkit for concurrent and distributed applications, using actors for message-driven programming.
 
 ## Type Classes
 
-- **Definition:** Achieve ad-hoc polymorphism defining behavior for types outside hierarchy.
-
+- **Definition:** Achieve ad-hoc polymorphism, defining behavior for types outside hierarchy, promoting generic and reusable code.
